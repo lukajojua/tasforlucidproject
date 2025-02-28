@@ -55,7 +55,7 @@ This is a FastAPI-based web application for user authentication and managing pos
 5. **Set Up Environment Variables**:
    - Create a `.env` file in the root of the project and define the following variables:
      ```env
-     DATABASE_URL=mysql://username:password@localhost/dbname
+     DATABASE_URL=mysql+pymysql://username:password@localhost/dbname
      SECRET_KEY=your_secret_key
      ALGORITHM=HS256
      ```
